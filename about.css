@@ -1,0 +1,105 @@
+/* ProjectAbout.css */
+
+/* Basic reset for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #004d99; /* Dark blue for contrast */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section Titles */
+main h2 {
+    color: #004d99;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+main p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+/* List Styling */
+main ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+main ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #004d99;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+/* Link Styling */
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
